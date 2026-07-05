@@ -39,7 +39,7 @@
 ```
 📸 Instagram Ad
       ↓
-💬 WhatsApp Chat (+44 7988 014666)
+💬 WhatsApp Chat (+44 XXXX XXXXXX)
       ↓
 💼 Fake Job Offer (Myntra Impersonation)
       ↓
@@ -68,10 +68,10 @@
 ## 🧬 INDICATORS OF COMPROMISE (IOCs)
 
 - Instagram: `adanafffjnnn529`  
-- WhatsApp: `+44 7988 014666`  
+- WhatsApp: `+44 XXXX XXXXXX`  
 - Website: `https://heartlight-replica.lovable.app`  
 - Invitation Code: `456321`  
-- Fake Email: `janakpandey82@gmail.com`  
+- Fake Email: `example@gmail.com`  
 - Customer ID: `7948AB18`  
 - Impersonated Brand: Myntra  
 
