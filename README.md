@@ -1,14 +1,31 @@
-# Cybercrime Investigation Case: Fake Myntra Job Scam
+# Cybercrime Investigation Case: Fake Myntra Job 
 
-## Case Overview
+![Status](https://img.shields.io/badge/Status-Investigated-green)
+![Type](https://img.shields.io/badge/Case-Type%3A%20DFIR%20%2F%20OSINT-blue)
+![Threat](https://img.shields.io/badge/Threat-Job%20Scam-red)
+![Platform](https://img.shields.io/badge/Platforms-Instagram%20%7C%20WhatsApp%20%7C%20Web-orange)
+![Evidence](https://img.shields.io/badge/Evidence-Preserved-brightgreen)
+![Report](https://img.shields.io/badge/Report-Completed-success)
 
-This repository documents a real-world cybercrime incident involving a fake “Work From Home Job” scam impersonating the brand Myntra.
+## 📌 Case Overview
 
-The scam targeted users through Instagram advertisements, redirected communication to WhatsApp, and used a fake job portal website to simulate legitimacy and request an advance fee.
+This repository contains a **Digital Forensics & OSINT investigation** of a fake job scam impersonating Myntra.
 
-No financial loss occurred in this case.
+The attack involved social engineering across Instagram, WhatsApp, and a phishing-style web portal designed to simulate a job onboarding system.
 
----
+No financial loss occurred. All evidence was preserved and analyzed.
+
+## 🚨 Threat Summary
+
+| Attribute | Value |
+|----------|------|
+| Attack Type | Social Engineering / Job Scam |
+| Target Vector | Instagram Ads |
+| Lure | Work From Home Job |
+| Monetization | ₹200 Activation Fee |
+| Infrastructure | SaaS-hosted phishing site |
+| Malware | None detected |
+| Risk Level | High (Financial Fraud) |
 
 ## Incident Type
 
@@ -32,6 +49,14 @@ The attack followed a structured multi-platform flow:
 7. Victim identified scam and terminated interaction  
 
 ---
+
+## 🧠 Security Analyst Notes
+
+- Attack is purely psychological, not technical
+- No malware or exploit chain detected
+- Fake trust-building via branding (Myntra impersonation)
+- Uses low-cost, reusable scam infrastructure
+- Highly scalable social engineering model
 
 ## Key Indicators of Compromise (IoCs)
 
@@ -68,6 +93,12 @@ The repository contains structured evidence in the following categories:
 - Clean detection in antivirus systems despite fraudulent behavior  
 
 ---
+## 📊 Impact
+
+- Financial Loss: None  
+- Credential Exposure: None  
+- System Compromise: None  
+- User Response: Scam identified early  
 
 ## Threat Model
 
