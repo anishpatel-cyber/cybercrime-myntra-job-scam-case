@@ -1,4 +1,4 @@
-# 🛡️ DFIR SECURITY DASHBOARD – CASE STUDY
+# 🛡️ DFIR & OSINT Investigation Dashboard – Job Scam Case Study (Myntra Impersonation)
 
 ![Status](https://img.shields.io/badge/Status-Investigated-green)
 ![Threat](https://img.shields.io/badge/Threat-Job%20Scam-red)
