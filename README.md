@@ -1,155 +1,132 @@
-# Cybercrime Investigation Case: Fake Myntra Job 
+# 🛡️ DFIR SECURITY DASHBOARD – CASE STUDY
 
 ![Status](https://img.shields.io/badge/Status-Investigated-green)
-![Type](https://img.shields.io/badge/Case-Type%3A%20DFIR%20%2F%20OSINT-blue)
 ![Threat](https://img.shields.io/badge/Threat-Job%20Scam-red)
-![Platform](https://img.shields.io/badge/Platforms-Instagram%20%7C%20WhatsApp%20%7C%20Web-orange)
-![Evidence](https://img.shields.io/badge/Evidence-Preserved-brightgreen)
-![Report](https://img.shields.io/badge/Report-Completed-success)
-
-## 📌 Case Overview
-
-This repository contains a **Digital Forensics & OSINT investigation** of a fake job scam impersonating Myntra.
-
-The attack involved social engineering across Instagram, WhatsApp, and a phishing-style web portal designed to simulate a job onboarding system.
-
-No financial loss occurred. All evidence was preserved and analyzed.
-
-## 🚨 Threat Summary
-
-| Attribute | Value |
-|----------|------|
-| Attack Type | Social Engineering / Job Scam |
-| Target Vector | Instagram Ads |
-| Lure | Work From Home Job |
-| Monetization | ₹200 Activation Fee |
-| Infrastructure | SaaS-hosted phishing site |
-| Malware | None detected |
-| Risk Level | High (Financial Fraud) |
-
-## Incident Type
-
-- Online Job Scam
-- Advance Fee Fraud
-- Brand Impersonation (Myntra)
-- Social Engineering Attack
+![Type](https://img.shields.io/badge/Case-DFIR%20%2F%20OSINT-blue)
+![Platforms](https://img.shields.io/badge/Platforms-Instagram%20%7C%20WhatsApp%20%7C%20Web-orange)
 
 ---
 
-## Investigation Summary
+## 📊 SECURITY OVERVIEW DASHBOARD
 
-The attack followed a structured multi-platform flow:
-
-1. Instagram advertisement used for victim attraction  
-2. WhatsApp used for direct communication and manipulation  
-3. Fake job offer with commission-based earning claims (30–50%)  
-4. ₹200 activation fee requested as entry requirement  
-5. Fake job website used to simulate onboarding  
-6. Fake payment proof shown to increase trust  
-7. Victim identified scam and terminated interaction  
+```
+🧾 Case ID        : MYNTRA-TASKSCAM-20250627-001
+🎯 Attack Type    : Social Engineering / Advance Fee Fraud
+🧠 Technique       : Fake Job Recruitment Scam
+🌐 Entry Point     : Instagram Advertisement
+📱 Communication   : WhatsApp
+💻 Infrastructure  : Fake Web Login Portal
+💰 Financial Trap  : ₹200 Activation Fee
+❌ Malware         : Not Detected
+```
 
 ---
 
-## 🧠 Security Analyst Notes
+## 🚨 THREAT SUMMARY PANEL
 
-- Attack is purely psychological, not technical
-- No malware or exploit chain detected
-- Fake trust-building via branding (Myntra impersonation)
-- Uses low-cost, reusable scam infrastructure
-- Highly scalable social engineering model
+| Attribute | Status |
+|----------|--------|
+| Threat Level | HIGH |
+| Technical Complexity | LOW |
+| Social Engineering | VERY HIGH |
+| Detection by Antivirus | NOT FLAGGED |
+| User Impact | FINANCIAL FRAUD ATTEMPT |
 
-## Key Indicators of Compromise (IoCs)
+---
 
-- Instagram Account: adanafffjnnn529  
-- WhatsApp Number: +44 7988 014666  
-- Fake Website: https://heartlight-replica.lovable.app  
-- Invitation Code: 456321  
-- Fake Email (used in proof): janakpandey82@gmail.com  
-- Customer ID: 7948AB18  
+## 🧭 ATTACK FLOW VISUAL
+
+```
+📸 Instagram Ad
+      ↓
+💬 WhatsApp Chat (+44 7988 014666)
+      ↓
+💼 Fake Job Offer (Myntra Impersonation)
+      ↓
+💰 ₹200 Activation Fee Request
+      ↓
+🌐 Fake Website Login Page
+      ↓
+🧾 Fake Payment Proof
+      ↓
+🚨 Fraud Attempt Blocked
+```
+
+---
+
+## 🧠 INVESTIGATION SUMMARY
+
+- No malware or exploit-based attack detected  
+- Entire operation relies on **social engineering tactics**  
+- Fake job recruitment used as lure  
+- Victim pressure via commission-based earning promise  
+- Fake onboarding website used for trust simulation  
+- Scam terminated before financial loss  
+
+---
+
+## 🧬 INDICATORS OF COMPROMISE (IOCs)
+
+- Instagram: `adanafffjnnn529`  
+- WhatsApp: `+44 7988 014666`  
+- Website: `https://heartlight-replica.lovable.app`  
+- Invitation Code: `456321`  
+- Fake Email: `janakpandey82@gmail.com`  
+- Customer ID: `7948AB18`  
 - Impersonated Brand: Myntra  
 
 ---
 
-## Evidence Structure
+## 🧠 SECURITY ANALYST NOTES
 
-The repository contains structured evidence in the following categories:
-
-- Instagram: advertisements and chat evidence  
-- WhatsApp: full conversation screenshots and payment proof  
-- Website: fake login page and interface analysis  
-- OSINT: domain analysis, infrastructure mapping, and threat profiling  
-- Timeline: complete attack sequence  
-- Final Report: full DFIR-style incident report  
+- Attack is purely psychological, not technical  
+- No malware or payload observed  
+- Uses brand impersonation for trust building  
+- Highly reusable scam template structure  
+- Designed for mass victim targeting  
 
 ---
 
-## Key Findings
+## 📊 IMPACT METRICS
 
-- No malware was involved in the attack  
-- Entire operation is based on social engineering  
-- Fake job onboarding system used to build trust  
-- Low technical complexity, high psychological manipulation  
-- Infrastructure is hosted on SaaS-based domain (lovable.app)  
-- Clean detection in antivirus systems despite fraudulent behavior  
-
----
-## 📊 Impact
-
-- Financial Loss: None  
-- Credential Exposure: None  
-- System Compromise: None  
-- User Response: Scam identified early  
-
-## Threat Model
-
-| Category | Level |
-|----------|------|
-| Social Engineering | High |
-| Financial Fraud Risk | High |
-| Malware Risk | None |
-| Technical Sophistication | Low |
-| Detection Evasion | Medium |
+```
+💸 Financial Loss      : None
+🔓 Data Compromise     : None
+💻 System Impact       : None
+⚠️ Risk Level          : High (If user pays)
+🛑 Incident Status     : Neutralized
+```
 
 ---
 
-## Objective of This Repository
+## 📁 REPOSITORY STRUCTURE
 
-This project was created for:
-
-- Cybersecurity learning (DFIR / OSINT practice)
-- Documentation of real-world scam patterns
-- Awareness of job fraud schemes
-- Portfolio demonstration of investigation workflow
-
----
-
-## Important Disclaimer
-
-This repository contains only publicly observed data and user-preserved evidence.
-
-No hacking, exploitation, or unauthorized access was performed during this investigation.
-
-All data is shared for educational and cybersecurity awareness purposes.
+- 📁 Instagram → Entry point evidence  
+- 📁 WhatsApp → Conversation + manipulation  
+- 📁 Website → Fake login interface  
+- 📁 OSINT → Domain + threat intelligence  
+- 📄 Timeline → Full attack sequence  
+- 📄 Final Report → Complete DFIR analysis  
 
 ---
 
-## Full Report
+## ⚠️ DISCLAIMER
 
-📄 Final Incident Report: Included in repository  
-📄 Timeline Analysis: Included  
-📄 OSINT Analysis: Included  
+This repository is created for cybersecurity education and DFIR practice.
+
+No unauthorized access, exploitation, or hacking was performed.
+
+All data is based on user-preserved evidence and OSINT analysis.
 
 ---
 
-## Repository Purpose
+## 🧾 FINAL NOTE
 
-This case demonstrates how modern scams operate using:
+This case demonstrates a modern **social engineering attack chain** using:
 
-- Social media targeting
-- Messaging app manipulation
-- Fake job portals
-- Psychological pressure tactics
-
-It highlights the importance of user awareness over technical exploitation prevention.
+- Social media targeting  
+- Messaging-based manipulation  
+- Fake job recruitment systems  
+- Psychological trust exploitation  
 
 ---
