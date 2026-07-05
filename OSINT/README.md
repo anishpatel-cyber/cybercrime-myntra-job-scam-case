@@ -1,6 +1,6 @@
 # OSINT Intelligence Report – Phase 1 (Entity Extraction)
 
-**Case ID:** MYNTRA-TASKSCAM-20250627-001  
+**Case ID:** MYNTRA-TASKSCAM-20260627-001  
 **Investigation Type:** Task Scam / Brand Impersonation / Advance Fee Fraud  
 **Phase:** Open Source Intelligence (Initial Entity Mapping)
 

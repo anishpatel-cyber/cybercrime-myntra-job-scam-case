@@ -1,6 +1,6 @@
 # OSINT Domain Intelligence Report – Phase 2
 
-**Case ID:** MYNTRA-TASKSCAM-20250627-001  
+**Case ID:** MYNTRA-TASKSCAM-20260627-001  
 **Target URL:** https://heartlight-replica.lovable.app  
 **Investigation Type:** Infrastructure & Domain Analysis  
 **Phase:** OSINT Technical Enrichment
@@ -42,7 +42,7 @@ heartlight-replica.lovable.app
 | Field | Value |
 |------|------|
 | Creation Date | 2023-05-06 |
-| Last Updated | 2025-10-10 |
+| Last Updated | 2026-10-10 |
 | Expiry Date | 2029-05-06 |
 
 ### Interpretation:

@@ -1,6 +1,6 @@
 # OSINT Reputation & Behavioral Analysis – Phase 3
 
-**Case ID:** MYNTRA-TASKSCAM-20250627-001  
+**Case ID:** MYNTRA-TASKSCAM-20260627-001  
 **Target URL:** https://heartlight-replica.lovable.app  
 **Investigation Type:** Threat Reputation + Web Behavior Analysis  
 **Phase:** OSINT Enrichment (External Scanner Validation)
